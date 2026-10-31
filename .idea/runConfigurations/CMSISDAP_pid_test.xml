@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration name="CMSIS-DAP 烧录调试" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pid_v2" TARGET_NAME="pid_v2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pid_v2" RUN_TARGET_NAME="pid_v2" RUN_PATH="$PROJECT_DIR$/cmake-build-debug/pid_v2.elf" version="1">
+    <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="board/stm32f4_cmsis-dap.cfg" reset-type="INIT" download-type="ALWAYS">
+      <debugger kind="GDB" isBundled="false">D:\STM32CubeCLT_1.22.0\GNU-tools-for-STM32\bin\arm-none-eabi-gdb.exe</debugger>
+    </openocd>
+    <method v="2">
+      <option name="CLION.COMPOUND.BUILD" enabled="true" />
+    </method>
+  </configuration>
+</component>

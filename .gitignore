@@ -1,0 +1,6 @@
+# 编译产物（每次编译都会变，且 CMakeCache 里是绝对路径）
+cmake-build-*/
+
+# 备份文件
+*.bak
+*.bak_*
